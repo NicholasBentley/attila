@@ -109,8 +109,11 @@
 
 
 			<section class="post-comments">
-				<a id="show-disqus" class="post-comments-activate">{{t "Show Comments"}}</a>
-			   <div id="disqus_thread"></div>
+			<!-- <a id="show-disqus" class="post-comments-activate">{{t "Show Comments"}}</a>
+			<div id="disqus_thread">
+			</div> -->
+			<div id="commento"></div>
+				<script src="https://cdn.commento.io/js/commento.js"></script>
 			</section>
 
       {{#if @labs.subscribers}}

@@ -138,8 +138,8 @@ jQuery(function($) {
 	video();
 
 	/* ==========================================================================
-	   Initialize and load Disqus
-	   ========================================================================== */
+	   [Disabled] Initialize and load Disqus
+	   ========================================================================== 
 
 	if (typeof disqus === 'undefined') {
 		$('.post-comments').css({
@@ -155,5 +155,5 @@ jQuery(function($) {
 			});
 			$(this).parent().addClass('activated');
 		});
-	}
+	}*/
 });
