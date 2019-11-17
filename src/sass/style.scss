@@ -7,6 +7,8 @@
 @import "icons";
 @import "fonts";
 @import "highlight";
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins|Source+Sans+Pro|Tienne&display=swap');
 
 /* ==========================================================================
    Basics
@@ -34,7 +36,7 @@ html.menu-active,
 }
 
 body {
-	font: 400 2em / 1.5em 'Cardo', serif;
+	font: 400 2em / 1.5em 'Source Sans Pro', sans-serif;
 	color: $color-blue-30;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
@@ -46,7 +48,7 @@ input,
 button,
 select,
 textarea {
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Poppins', serif;
 	transition: all ease-out 0.2s;
 }
 
@@ -62,7 +64,7 @@ a:focus {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Tienne', sans-serif;
 	text-rendering: optimizeLegibility;
 	color: $color-black;
 }
@@ -118,7 +120,7 @@ ol > li:before {
 	position: absolute;
 	width: 1.5em;
 	margin-left: -2em;
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-size: 1em;
 	font-weight: 500;
 	line-height: 1.5em;
@@ -193,7 +195,7 @@ dl {
     padding-left: 30px;
 }
 dl dt {
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
   	font-weight: 500;
   	font-size: 0.75em;
   	line-height: 1.25em;
@@ -312,7 +314,7 @@ table td {
     border: 1px solid $color-gray-90;
 }
 table th {
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-weight: 500;
 	font-size: 0.75em;
 	line-height: 1.25em;
@@ -348,7 +350,7 @@ img {
    ========================================================================== */
 
 figure figcaption {
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: $color-blue-60;
     text-align: center;
     max-width: 32em;
@@ -459,7 +461,7 @@ figure figcaption {
 }
 
 .kg-bookmark-content {
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   text-rendering: optimizeLegibility;
   display: flex;
   flex-direction: column;
@@ -506,7 +508,7 @@ figure figcaption {
 }
 
 .kg-bookmark-metadata {
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   text-rendering: optimizeLegibility;
   display: flex;
   align-items: center;
@@ -696,7 +698,7 @@ figure figcaption {
 	z-index: 10;
 	margin: 0;
 	padding: 0;
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Tienne', serif;
 	font-weight: 700;
 	font-size: 2em;
 	line-height: 1em;
@@ -779,7 +781,7 @@ figure figcaption {
 	margin-bottom: 1em;
 	padding: 0.5em 1.25em;
 	border: 1px solid $color-blue-80;
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-size: 0.75em;
 	line-height: 1.66666em;
 	text-shadow: none;
@@ -833,7 +835,7 @@ figure figcaption {
 	border-left: 1px solid $color-gray-90;
 	z-index: 400;
 	overflow: hidden;
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	box-shadow: inset -2px 0 7px rgba(0,0,0,0.1);
 	transform: translate3d(16em,0,0);
 	transition: all ease-out 0.25s;
@@ -992,7 +994,7 @@ figure figcaption {
 #footer {
 	position: relative;
 	z-index: 20;
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	line-height: 1em;
 	padding-bottom: 6em;
 }
@@ -1186,7 +1188,7 @@ figure figcaption {
 	z-index: 10;
 	display: block;
 	margin-bottom: 1.33333em;
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-size: 0.75em;
 	font-weight: 400;
 	line-height: 1.33333em;
@@ -1244,7 +1246,7 @@ figure figcaption {
    ========================================================================== */
 
 .post-info {
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
 	margin-top: 2em;
 }
 .post-info-label {
@@ -1335,7 +1337,7 @@ figure figcaption {
 	border-top: 1px solid $color-gray-90;
 	border-bottom: 1px solid $color-gray-90;
 	clear: both;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .post-author-avatar {
 	position: relative;
@@ -1414,7 +1416,7 @@ figure figcaption {
 	border-bottom: 1px solid $color-gray-90;
 	clear: both;
   text-align: center;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .post-authors-info {
   margin: 0 0 0.33333em;
@@ -1449,7 +1451,7 @@ figure figcaption {
 	margin: 0;
 	padding: 0.5em 1.25em;
 	border: 1px solid $color-blue-80;
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-size: 0.75em;
 	line-height: 1.33333em;
 	color: $color-blue-60;
@@ -1618,7 +1620,7 @@ figure figcaption {
 	height: 2em;
 	margin: 0;
 	padding: 2em 0;
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 .pagination:after {
 	position: absolute;
